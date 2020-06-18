@@ -6,6 +6,8 @@ The inputs to the network will now be the 8x1 state vector returned by the gym e
 
 This would have not been a problem if we could have ran our code in the cluster, but due to some technical difficulties we could not install gym library in it. That is why we decided to change the approach and use the state returned by our enviroment. By using this approach we could obtain a nice model within the time limit of Google Colab.
 
+The best generated model, will be stored at your Google Drive in the folder My Drive/DeepLearning_2020/ReinforcementLearningOnVideoGames/data/models/ with the name Lunar_Lander_model.ckpt.
+
 Also a soft update of the target network parameters has been used as we read that it improved performance. Because we were not able to do this update and copy the parameters into the target network we used the code from https://gist.github.com/abhinavsagar/a7cd1d67ad5a71589d576cd84f15b648.
 
 We have also changed the structure of the code of the tutorial as we believe it is more structured and easier to follow in this way. The code provides functions to train the model and also a way to test how the model performs. By using the functions show_video and wrap_env from https://colab.research.google.com/drive/1A75J2xFYjpJvNWXCSM1Xcty7K3WIGrud, we can create a video showing how the model plays when running the code at Google Colab. In case the video cannot be seen here at the notebook in GitHub we have stored the video in the folder data/results.
