@@ -20,3 +20,7 @@ In the folder Breakout, many codes can be found. The code BreakoutSL.ipynb is a 
 
 Finally, the code BreakoutReinforcement.ipynb is a DQN reinforcement learning approach. In this code, the network is formed by fully connected layers as the input (the state) will be the position of the ball and the paddle. This state that we will use as input is not the one returned by gym library. We decided to modify the state as we empirically found out that it gave us better results.
 
+The dataset for the supervised learning cannot be uploaded because it's too large. In case you want to train it with our dataset you can do it by inserting the file in the folder ReinforcementLearningOnVideoGames/data/. We also provide the code to generate a new dataset.
+Link:
+https://drive.google.com/file/d/1PvOt8ACSEvMPCj9XHlwQdz0iMrcf7tBp/view?usp=sharing
+
