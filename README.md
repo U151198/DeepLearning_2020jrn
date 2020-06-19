@@ -1,7 +1,7 @@
 # DeepLearning_2020
 This repository contains reinforcement learning models that are able to play 3 enviroments from the library OpenAI-Gym. The enviroments currently available are: CartPole, LunarLander and Breakout.
 
-To execute the notebooks insert this folder into /content/drive/My Drive/DeepLearning_2020.
+To execute the notebooks create a folder DeepLearning_2020 and insert this repository into /content/drive/My Drive/DeepLearning_2020.
 
 The code has been developed to run using Google Colab, however some codes allows you if you to run it on your PCs setting the variable "colab" to False so that the model can be stored and loaded from your PC. Take into account that OpenAI Gym doesn't support some Windows OS so you might run into problems when running the code using Windows.
 
