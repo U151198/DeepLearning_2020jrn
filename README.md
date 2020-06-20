@@ -4,7 +4,7 @@ This repository contains reinforcement learning models that are able to play 3 e
 ## Installation
 To execute the notebooks create a folder named DeepLearning_2020 in the base directory of Google Drive. Then download this repository as a zip and put the uncompressed reposity into the Drive folder DeepLearning_2020.
 
-The code has been developed to run using Google Colab, however some codes allows you if you to run it on your PCs setting the variable "colab" to False so that the model can be stored and loaded from your PC. Take into account that OpenAI Gym doesn't support some Windows OS so you might run into problems when running the code using Windows.
+The code has been developed to run using Google Colab, however some codes allows you to run it on your PC, by setting the variable "colab" to False so that the model can be stored and loaded from your PC. Take into account that OpenAI Gym doesn't support some Windows OS versions, so you might run into problems when running the code using Windows.
 
 That is why we chose to implement the code in a notebook format so that it can install all the required dependencies and run as intended by using Google Colab no matter which OS you are using.
 
