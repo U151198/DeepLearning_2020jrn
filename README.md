@@ -25,5 +25,5 @@ Finally, the code BreakoutReinforcement.ipynb is a DQN reinforcement learning ap
 
 The dataset breakout_balanced.npy for the supervised learning cannot be uploaded because it's too large. In case you want to train it with our dataset you can do it by inserting the file in the folder ReinforcementLearningOnVideoGames/data/. We also provide the code to generate a new dataset and the trained model.
 
-Link: https://drive.google.com/file/d/1PvOt8ACSEvMPCj9XHlwQdz0iMrcf7tBp/view?usp=sharing
+Dataset link: https://drive.google.com/file/d/1PvOt8ACSEvMPCj9XHlwQdz0iMrcf7tBp/view?usp=sharing
 
