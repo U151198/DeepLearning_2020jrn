@@ -17,5 +17,5 @@ The code structure is very similar to the Lunar Lander example. In fact, we adap
 
 First of all we noticed that with images we were not able to achieve significant result due the training time required. The original observation space (information for the agent) was an image of (210,160,3) and we changed to a vector of two dimensions that contains the ball and paddle position. Also we have changed the reward which we calculated in terms of the distance between the paddle and the ball. This changes reduce the training time and makes it more stable.
 
-We have replaced the LunarLander agent deep neural network for the one you can find in https://github.com/RMiftakhov/LunarLander-v2-drlnd/blob/master/model.py because it gave better and more stable results.
+We have replaced the LunarLander agent deep neural network for a Dueling DQN approach. The code used can be found in https://github.com/RMiftakhov/LunarLander-v2-drlnd/blob/master/model.py, we decided to use this net because it gave better and more stable results.
 
