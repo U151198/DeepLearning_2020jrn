@@ -17,7 +17,7 @@ The code contained in the CartPole folder uses DQN reinforcement learning in ord
 
 ## LunarLander
 The notebook contained in the LunarLander folder uses DQN reinforcement learning by using the state provided by the gym enviroment as input for the network. In this case, a fully connected layer is used, as the size of the input (the state) will be vectors of size (8,1).
--
+
 The code contains every class needed to do the DQN reinforcement learning and also contains train and test functions. The train function trains the agent and stores the model whenever the game is won (avg score higher than 200 in 100 consecutive episodes). The test function, allows the user to load a previously stored model and make it play a number of times. Then it renders a video showing how the agent has played.
 
 ## Breakout
