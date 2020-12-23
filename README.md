@@ -1,7 +1,7 @@
 # DeepLearning_2020
 This repository contains reinforcement learning models that are able to play 3 enviroments from the library OpenAI-Gym. The enviroments currently available are: CartPole, LunarLander and Breakout.
 
-[Results Web Page](http://htmlpreview.github.io/?https://github.com/U151198/ReinforcementLearningOnVideoGames/blob/master/results.html)
+[Project Results](http://htmlpreview.github.io/?https://github.com/U151198/ReinforcementLearningOnVideoGames/blob/master/results.html)
 
 ## Installation
 To execute the notebooks download this repository as a zip and put the uncompressed repository into the base directory of Google Drive.
